@@ -1,6 +1,9 @@
 class MySolution {
   countDownSum(num) {
-    // Insert code here;
+var self=this;
+if(num===1)
+return 1;
+else return num+self.countDownSum(num-1);    // Insert code here;
   }
 }
 
